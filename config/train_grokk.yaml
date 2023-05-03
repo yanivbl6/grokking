@@ -15,12 +15,12 @@ train:
   num_workers: 0
   bsize: 512
   lr: 1e-3
-  weight_decay: 0.0
+  weight_decay: 0.001
   betas: [0.9, 0.98]
   warmup_steps: 10
   eval_every: 10
   eval_batches: 8
-  max_steps: 1e6
+  max_steps: 1e5
 
 wandb:
   use_wandb: true
